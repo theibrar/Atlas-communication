@@ -43,7 +43,7 @@ export default function WhatWeDeliver() {
             </p>
           </div>
 
-          {/* Card 3 (Highlighted #790708 Card) */}
+          {/* Card 3 (Highlighted #1b4332 Card) */}
           <div class="service-card card-featured" id="card-auto">
             <div class="card-icon-circle icon-white">
               <i class="fa-solid fa-car"></i>

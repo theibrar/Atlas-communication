@@ -24,7 +24,7 @@ export default function TestimonialsSection() {
                 <svg class="progress-ring" width="150" height="150">
                   <circle
                     class="progress-ring-bg"
-                    stroke="rgba(121, 7, 8, 0.15)"
+                    stroke="rgba(27, 67, 50, 0.15)"
                     strokeWidth="12"
                     fill="transparent"
                     r="58"
@@ -34,7 +34,7 @@ export default function TestimonialsSection() {
                   <circle
                     class="progress-ring-bar"
                     id="gauge-bar-1"
-                    stroke="#790708"
+                    stroke="#1b4332"
                     strokeWidth="12"
                     strokeDasharray="364.4"
                     strokeDashoffset="18.2"
@@ -56,7 +56,7 @@ export default function TestimonialsSection() {
                 <svg class="progress-ring" width="150" height="150">
                   <circle
                     class="progress-ring-bg"
-                    stroke="rgba(121, 7, 8, 0.15)"
+                    stroke="rgba(27, 67, 50, 0.15)"
                     strokeWidth="12"
                     fill="transparent"
                     r="58"
@@ -66,7 +66,7 @@ export default function TestimonialsSection() {
                   <circle
                     class="progress-ring-bar"
                     id="gauge-bar-2"
-                    stroke="#790708"
+                    stroke="#1b4332"
                     strokeWidth="12"
                     strokeDasharray="364.4"
                     strokeDashoffset="72.88"
@@ -98,7 +98,7 @@ export default function TestimonialsSection() {
               </div>
             </div>
 
-            {/* Testimonial 2 (Featured #790708 Card) */}
+            {/* Testimonial 2 (Featured #1b4332 Card) */}
             <div class="testimonial-bubble bubble-featured" id="testimonial-2">
               <div class="bubble-avatar">
                 <img src="/images/client_2.jpg" alt="Elena Rostova - VP Sales" />

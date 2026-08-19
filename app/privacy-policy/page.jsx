@@ -31,7 +31,7 @@ export default function PrivacyPolicyPage() {
 
       <section class="section-padding bg-white">
         <div class="container" style={{ maxWidth: '860px' }}>
-          <div style={{ color: '#790708', lineHeight: '1.8', fontSize: '1.02rem' }}>
+          <div style={{ color: '#1b4332', lineHeight: '1.8', fontSize: '1.02rem' }}>
             <h3 style={{ fontSize: '1.5rem', fontWeight: '800', marginBottom: '12px' }}>1. Information We Collect</h3>
             <p style={{ marginBottom: '24px' }}>
               Atlas Communication collects information that identifies, relates to, describes, or is capable of being associated with individual consumers. This includes contact details (name, corporate email, phone number), target insurance coverage preferences, TCPA consent logs, IP addresses, and session interaction metrics.

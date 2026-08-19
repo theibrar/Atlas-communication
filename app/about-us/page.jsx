@@ -81,7 +81,7 @@ export default function AboutUsPage() {
               </p>
             </div>
 
-            {/* Card 2 (Featured #790708 Card) */}
+            {/* Card 2 (Featured #1b4332 Card) */}
             <div class="service-card card-featured">
               <div class="card-icon-circle icon-white">
                 <i class="fa-solid fa-chart-line"></i>
@@ -118,7 +118,7 @@ export default function AboutUsPage() {
       </section>
 
       {/* NEW SECTION 1: Our Proprietary Technology & Infrastructure */}
-      <section class="section-padding bg-light" style={{ borderTop: '1px solid rgba(121,7,8,0.15)' }}>
+      <section class="section-padding bg-light" style={{ borderTop: '1px solid rgba(27,67,50,0.15)' }}>
         <div class="container">
           <div class="about-container">
             <div class="about-content">
@@ -150,7 +150,7 @@ export default function AboutUsPage() {
             </div>
 
             <div class="about-media">
-              <div style={{ borderRadius: '20px', overflow: 'hidden', border: '3px solid #790708', boxShadow: '0 16px 36px rgba(121,7,8,0.2)' }}>
+              <div style={{ borderRadius: '20px', overflow: 'hidden', border: '3px solid #1b4332', boxShadow: '0 16px 36px rgba(27,67,50,0.2)' }}>
                 <img
                   src="/images/about_tech_infrastructure.jpg"
                   alt="Atlas Communication High-Tech Telecom Routing Center"
@@ -167,7 +167,7 @@ export default function AboutUsPage() {
         <div class="container">
           <div class="about-container" style={{ gridTemplateColumns: '1.05fr 0.95fr' }}>
             <div class="about-media">
-              <div style={{ borderRadius: '20px', overflow: 'hidden', border: '3px solid #790708', boxShadow: '0 16px 36px rgba(121,7,8,0.2)' }}>
+              <div style={{ borderRadius: '20px', overflow: 'hidden', border: '3px solid #1b4332', boxShadow: '0 16px 36px rgba(27,67,50,0.2)' }}>
                 <img
                   src="/images/commercial_insurance.jpg"
                   alt="Atlas Communication Corporate Agency Partnership"
@@ -187,19 +187,19 @@ export default function AboutUsPage() {
 
               {/* Highlight Metrics Grid */}
               <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '16px', marginTop: '24px' }}>
-                <div style={{ padding: '16px', backgroundColor: '#ffffff', borderRadius: '12px', border: '1.5px solid #790708', textAlign: 'center' }}>
-                  <h4 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#790708' }}>18K+</h4>
-                  <p style={{ fontSize: '0.78rem', fontWeight: '700', color: '#790708' }}>Monthly Inbound Calls</p>
+                <div style={{ padding: '16px', backgroundColor: '#ffffff', borderRadius: '12px', border: '1.5px solid #1b4332', textAlign: 'center' }}>
+                  <h4 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#1b4332' }}>18K+</h4>
+                  <p style={{ fontSize: '0.78rem', fontWeight: '700', color: '#1b4332' }}>Monthly Inbound Calls</p>
                 </div>
 
-                <div style={{ padding: '16px', backgroundColor: '#790708', borderRadius: '12px', color: '#ffffff', textAlign: 'center' }}>
+                <div style={{ padding: '16px', backgroundColor: '#1b4332', borderRadius: '12px', color: '#ffffff', textAlign: 'center' }}>
                   <h4 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#ffffff' }}>95%</h4>
                   <p style={{ fontSize: '0.78rem', fontWeight: '700', color: '#ffffff' }}>Partner Retention</p>
                 </div>
 
-                <div style={{ padding: '16px', backgroundColor: '#ffffff', borderRadius: '12px', border: '1.5px solid #790708', textAlign: 'center' }}>
-                  <h4 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#790708' }}>&lt;3s</h4>
-                  <p style={{ fontSize: '0.78rem', fontWeight: '700', color: '#790708' }}>Live Transfer Speed</p>
+                <div style={{ padding: '16px', backgroundColor: '#ffffff', borderRadius: '12px', border: '1.5px solid #1b4332', textAlign: 'center' }}>
+                  <h4 style={{ fontSize: '1.8rem', fontWeight: '800', color: '#1b4332' }}>&lt;3s</h4>
+                  <p style={{ fontSize: '0.78rem', fontWeight: '700', color: '#1b4332' }}>Live Transfer Speed</p>
                 </div>
               </div>
             </div>

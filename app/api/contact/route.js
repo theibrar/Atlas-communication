@@ -41,8 +41,8 @@ export async function POST(request) {
     });
 
     const htmlContent = `
-      <div style="font-family: Arial, sans-serif; color: #790708; max-width: 600px; margin: 0 auto; border: 2px solid #790708; border-radius: 12px; padding: 24px; background-color: #ffffff;">
-        <h2 style="color: #790708; border-bottom: 2px solid #790708; padding-bottom: 12px; margin-top: 0;">
+      <div style="font-family: Arial, sans-serif; color: #1b4332; max-width: 600px; margin: 0 auto; border: 2px solid #1b4332; border-radius: 12px; padding: 24px; background-color: #ffffff;">
+        <h2 style="color: #1b4332; border-bottom: 2px solid #1b4332; padding-bottom: 12px; margin-top: 0;">
           New Lead Submission - Atlas Communication
         </h2>
         <table style="width: 100%; border-collapse: collapse; margin-top: 16px;">

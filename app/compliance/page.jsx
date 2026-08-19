@@ -89,7 +89,7 @@ export default function CompliancePage() {
               </ul>
             </div>
             <div class="about-media">
-              <div style={{ padding: '36px', backgroundColor: '#790708', borderRadius: '18px', color: '#ffffff' }}>
+              <div style={{ padding: '36px', backgroundColor: '#1b4332', borderRadius: '18px', color: '#ffffff' }}>
                 <h3 style={{ fontSize: '1.8rem', fontWeight: '800', marginBottom: '16px' }}>Compliance Audit Request</h3>
                 <p style={{ fontSize: '0.95rem', color: 'rgba(255,255,255,0.85)', marginBottom: '24px' }}>
                   Require a LeadID certificate validation or compliance review for a past call transfer? Our compliance team responds within 2 business hours.

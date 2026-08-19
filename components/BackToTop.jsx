@@ -38,7 +38,7 @@ export default function BackToTop() {
         width: '50px',
         height: '50px',
         borderRadius: '50%',
-        backgroundColor: '#790708',
+        backgroundColor: '#1b4332',
         color: '#ffffff',
         border: '2px solid #ffffff',
         boxShadow: '0 8px 24px rgba(0, 0, 0, 0.4)',
@@ -52,12 +52,12 @@ export default function BackToTop() {
       }}
       onMouseEnter={(e) => {
         e.currentTarget.style.backgroundColor = '#ffffff';
-        e.currentTarget.style.color = '#790708';
-        e.currentTarget.style.borderColor = '#790708';
+        e.currentTarget.style.color = '#1b4332';
+        e.currentTarget.style.borderColor = '#1b4332';
         e.currentTarget.style.transform = 'translateY(-4px)';
       }}
       onMouseLeave={(e) => {
-        e.currentTarget.style.backgroundColor = '#790708';
+        e.currentTarget.style.backgroundColor = '#1b4332';
         e.currentTarget.style.color = '#ffffff';
         e.currentTarget.style.borderColor = '#ffffff';
         e.currentTarget.style.transform = 'translateY(0)';

@@ -92,8 +92,8 @@ export default function ContactPage() {
                     <i class="fa-solid fa-phone"></i>
                   </div>
                   <div>
-                    <h5 style={{ fontSize: '0.85rem', color: 'rgba(121,7,8,0.7)', textTransform: 'uppercase' }}>Direct Line</h5>
-                    <a href="tel:+15123259363" style={{ fontSize: '1.2rem', fontWeight: '800', color: '#790708' }}>
+                    <h5 style={{ fontSize: '0.85rem', color: 'rgba(27,67,50,0.7)', textTransform: 'uppercase' }}>Direct Line</h5>
+                    <a href="tel:+15123259363" style={{ fontSize: '1.2rem', fontWeight: '800', color: '#1b4332' }}>
                       +1 (512) 325-9363
                     </a>
                   </div>
@@ -104,8 +104,8 @@ export default function ContactPage() {
                     <i class="fa-solid fa-envelope"></i>
                   </div>
                   <div>
-                    <h5 style={{ fontSize: '0.85rem', color: 'rgba(121,7,8,0.7)', textTransform: 'uppercase' }}>Corporate Email</h5>
-                    <a href="mailto:info@atlascommunication.us" style={{ fontSize: '1.1rem', fontWeight: '800', color: '#790708' }}>
+                    <h5 style={{ fontSize: '0.85rem', color: 'rgba(27,67,50,0.7)', textTransform: 'uppercase' }}>Corporate Email</h5>
+                    <a href="mailto:info@atlascommunication.us" style={{ fontSize: '1.1rem', fontWeight: '800', color: '#1b4332' }}>
                       info@atlascommunication.us
                     </a>
                   </div>
@@ -116,8 +116,8 @@ export default function ContactPage() {
                     <i class="fa-solid fa-globe"></i>
                   </div>
                   <div>
-                    <h5 style={{ fontSize: '0.85rem', color: 'rgba(121,7,8,0.7)', textTransform: 'uppercase' }}>Official Website</h5>
-                    <a href="https://www.atlascommunication.us" target="_blank" rel="noreferrer" style={{ fontSize: '1.1rem', fontWeight: '800', color: '#790708' }}>
+                    <h5 style={{ fontSize: '0.85rem', color: 'rgba(27,67,50,0.7)', textTransform: 'uppercase' }}>Official Website</h5>
+                    <a href="https://www.atlascommunication.us" target="_blank" rel="noreferrer" style={{ fontSize: '1.1rem', fontWeight: '800', color: '#1b4332' }}>
                       www.atlascommunication.us
                     </a>
                   </div>
@@ -128,8 +128,8 @@ export default function ContactPage() {
                     <i class="fa-solid fa-clock"></i>
                   </div>
                   <div>
-                    <h5 style={{ fontSize: '0.85rem', color: 'rgba(121,7,8,0.7)', textTransform: 'uppercase' }}>Operating Hours</h5>
-                    <p style={{ fontSize: '1rem', fontWeight: '700', color: '#790708' }}>
+                    <h5 style={{ fontSize: '0.85rem', color: 'rgba(27,67,50,0.7)', textTransform: 'uppercase' }}>Operating Hours</h5>
+                    <p style={{ fontSize: '1rem', fontWeight: '700', color: '#1b4332' }}>
                       Mon - Fri: 8:00 AM - 6:00 PM EST
                     </p>
                   </div>
@@ -138,11 +138,11 @@ export default function ContactPage() {
             </div>
 
             {/* Right Contact Form */}
-            <div style={{ padding: '36px', borderRadius: '18px', border: '2px solid #790708', backgroundColor: '#ffffff', boxShadow: '0 12px 36px rgba(121,7,8,0.15)' }}>
-              <h3 style={{ fontSize: '1.6rem', fontWeight: '800', color: '#790708', marginBottom: '8px' }}>
+            <div style={{ padding: '36px', borderRadius: '18px', border: '2px solid #1b4332', backgroundColor: '#ffffff', boxShadow: '0 12px 36px rgba(27,67,50,0.15)' }}>
+              <h3 style={{ fontSize: '1.6rem', fontWeight: '800', color: '#1b4332', marginBottom: '8px' }}>
                 Send Us a Message
               </h3>
-              <p style={{ fontSize: '0.9rem', color: 'rgba(121,7,8,0.8)', marginBottom: '24px' }}>
+              <p style={{ fontSize: '0.9rem', color: 'rgba(27,67,50,0.8)', marginBottom: '24px' }}>
                 Fill out the form below to request a campaign consultation or test lead package.
               </p>
 
@@ -222,7 +222,7 @@ export default function ContactPage() {
                     id="c-msg"
                     rows="4"
                     placeholder="Describe your current agent capacity and desired daily call volume..."
-                    style={{ width: '100%', padding: '12px 16px', borderRadius: '12px', border: '1.5px solid rgba(121,7,8,0.2)', fontSize: '0.92rem', color: '#790708', fontFamily: 'inherit' }}
+                    style={{ width: '100%', padding: '12px 16px', borderRadius: '12px', border: '1.5px solid rgba(27,67,50,0.2)', fontSize: '0.92rem', color: '#1b4332', fontFamily: 'inherit' }}
                     value={form.message}
                     onChange={(e) => setForm({ ...form, message: e.target.value })}
                     required

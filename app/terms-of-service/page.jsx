@@ -31,7 +31,7 @@ export default function TermsOfServicePage() {
 
       <section class="section-padding bg-white">
         <div class="container" style={{ maxWidth: '860px' }}>
-          <div style={{ color: '#790708', lineHeight: '1.8', fontSize: '1.02rem' }}>
+          <div style={{ color: '#1b4332', lineHeight: '1.8', fontSize: '1.02rem' }}>
             <h3 style={{ fontSize: '1.5rem', fontWeight: '800', marginBottom: '12px' }}>1. Agreement to Terms</h3>
             <p style={{ marginBottom: '24px' }}>
               By accessing www.atlascommunication.us or engaging Atlas Communication for performance marketing services, you agree to be bound by these Terms of Service. If you do not agree with any part of these terms, you may not access the services.

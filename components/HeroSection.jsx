@@ -18,10 +18,10 @@ export default function HeroSection({ onShowToast }) {
         <div class="hero-content">
           <h1 class="hero-title">
             Start Getting <br />
-            <span class="text-white" style={{ textDecoration: 'underline', textUnderlineOffset: '6px' }}>
+            <span style={{ textDecoration: 'underline', textUnderlineOffset: '6px' }}>
               Qualified Inbound Phone
             </span> <br />
-            <span class="text-white">Leads Today</span>
+            <span>Leads Today</span>
           </h1>
           <p class="hero-subtitle">
             Atlas Communication delivers qualified inbound insurance leads powered by real buyers. Brand safe compliance standards, and performance-driven traffic – so your agents can spend more time closing policies and less time chasing unqualified prospects.

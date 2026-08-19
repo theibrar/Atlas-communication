@@ -84,7 +84,7 @@ export default function ServiceDetailTemplate({
               </ul>
             </div>
             <div class="about-media">
-              <div style={{ borderRadius: '18px', overflow: 'hidden', border: '3px solid #790708', boxShadow: '0 16px 36px rgba(121,7,8,0.2)' }}>
+              <div style={{ borderRadius: '18px', overflow: 'hidden', border: '3px solid #1b4332', boxShadow: '0 16px 36px rgba(27,67,50,0.2)' }}>
                 <img src={image} alt={overviewTitle} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
               </div>
             </div>
@@ -123,15 +123,15 @@ export default function ServiceDetailTemplate({
                     style={{
                       padding: '24px',
                       borderRadius: '12px',
-                      border: '1.5px solid rgba(121,7,8,0.2)',
+                      border: '1.5px solid rgba(27,67,50,0.2)',
                       backgroundColor: '#ffffff',
                     }}
                   >
-                    <h4 style={{ color: '#790708', fontSize: '1.1rem', fontWeight: '700', marginBottom: '8px' }}>
+                    <h4 style={{ color: '#1b4332', fontSize: '1.1rem', fontWeight: '700', marginBottom: '8px' }}>
                       <i class="fa-solid fa-circle-question" style={{ marginRight: '10px' }}></i>
                       {faq.q}
                     </h4>
-                    <p style={{ color: 'rgba(121,7,8,0.85)', fontSize: '0.95rem', lineHeight: '1.6' }}>{faq.a}</p>
+                    <p style={{ color: 'rgba(27,67,50,0.85)', fontSize: '0.95rem', lineHeight: '1.6' }}>{faq.a}</p>
                   </div>
                 ))}
               </div>
