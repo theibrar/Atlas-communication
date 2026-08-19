@@ -1,11 +1,8 @@
 /* ==========================================================================
-   PREMIUM DIGITAL MEDIA - STRICT TWO-COLOR DESIGN SYSTEM
+   ATLAS COMMUNICATION - NEXT.JS STRICT TWO-COLOR DESIGN SYSTEM
    PRIMARY: #790708 | SECONDARY: #FFFFFF
    ========================================================================== */
 
-/* ------------------------------
-   CSS Variables & Design Tokens
-   ------------------------------ */
 :root {
   /* STRICTLY TWO COLORS */
   --primary: #790708;
@@ -192,7 +189,7 @@ button, input, select {
 }
 
 /* ------------------------------
-   Button Styles (Strictly #790708 and #ffffff)
+   Button Styles
    ------------------------------ */
 .btn {
   display: inline-flex;
@@ -210,7 +207,6 @@ button, input, select {
   letter-spacing: 0.5px;
 }
 
-/* Solid Primary Button */
 .btn-lime, .btn-primary, .btn-red {
   background-color: var(--primary);
   color: var(--white);
@@ -226,7 +222,6 @@ button, input, select {
   box-shadow: 0 6px 20px var(--primary-transparent-50);
 }
 
-/* Solid White Button (for Dark #790708 backgrounds) */
 .btn-white {
   background-color: var(--white);
   color: var(--primary);
@@ -277,7 +272,7 @@ button, input, select {
   width: 100%;
   background-color: var(--primary);
   z-index: 1000;
-  padding: 16px 0;
+  padding: 12px 0;
   border-bottom: 1px solid var(--white-transparent-20);
   transition: background-color var(--transition-fast);
 }
@@ -294,34 +289,25 @@ button, input, select {
   gap: 10px;
 }
 
-.logo-icon svg {
-  width: 38px;
-  height: 38px;
+.brand-logo-img {
+  height: 72px;
+  width: auto;
+  max-width: 320px;
   display: block;
+  object-fit: contain;
+  transition: transform var(--transition-fast);
 }
 
-.logo-text {
-  display: flex;
-  flex-direction: column;
+.brand-logo-img:hover {
+  transform: scale(1.03);
 }
 
-.logo-title {
-  font-family: var(--font-heading);
-  font-size: 1.45rem;
-  font-weight: 800;
-  color: var(--white);
-  letter-spacing: -0.5px;
-  line-height: 1;
-}
-
-.logo-subtitle {
-  font-size: 0.65rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: var(--white);
-  font-weight: 700;
-  margin-top: 2px;
-  opacity: 0.85;
+.brand-logo-img-drawer {
+  height: 55px;
+  width: auto;
+  max-width: 240px;
+  display: block;
+  object-fit: contain;
 }
 
 .main-nav .nav-list {
@@ -360,7 +346,6 @@ button, input, select {
   transform: rotate(180deg);
 }
 
-/* Dropdown Menu */
 .dropdown-menu {
   position: absolute;
   top: 100%;
@@ -532,7 +517,6 @@ button, input, select {
   max-width: 580px;
 }
 
-/* Hero Lead Input Bar */
 .hero-form {
   display: flex;
   align-items: center;
@@ -582,7 +566,6 @@ button, input, select {
   border-color: var(--primary);
 }
 
-/* Hero Social Proof Row */
 .hero-proof-row {
   display: flex;
   align-items: center;
@@ -651,7 +634,6 @@ button, input, select {
   color: var(--white-transparent-80);
 }
 
-/* Category Pills */
 .hero-tags {
   display: flex;
   flex-wrap: wrap;
@@ -686,7 +668,6 @@ button, input, select {
   color: var(--primary);
 }
 
-/* Hero Media & Floating Badge */
 .hero-media-wrapper {
   position: relative;
 }
@@ -835,7 +816,6 @@ button, input, select {
   line-height: 1.65;
 }
 
-/* Highlight Featured Card in Section 2 (Strict Solid #790708) */
 .card-featured {
   background-color: var(--primary);
   color: var(--white);
@@ -995,7 +975,7 @@ button, input, select {
 }
 
 /* ------------------------------
-   SECTION 4: OUR COMMITMENT (STRICT #790708 + WHITE)
+   SECTION 4: OUR COMMITMENT
    ------------------------------ */
 .commitment-section {
   background-color: var(--primary);
@@ -1086,7 +1066,6 @@ button, input, select {
   object-fit: cover;
 }
 
-/* Stats Counter Bar */
 .stats-counter-bar {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -1193,7 +1172,6 @@ button, input, select {
   line-height: 1.65;
 }
 
-/* Featured Center Card */
 .acq-featured-card {
   grid-column: 2 / 3;
   grid-row: 1 / 3;
@@ -1235,7 +1213,7 @@ button, input, select {
 }
 
 /* ------------------------------
-   SECTION 6: OUR TEAM SECTION (STRICT #790708 + WHITE)
+   SECTION 6: OUR TEAM SECTION
    ------------------------------ */
 .team-section {
   background-color: var(--primary);
@@ -1436,7 +1414,6 @@ button, input, select {
   color: var(--primary-transparent-80);
 }
 
-/* Featured Testimonial Bubble (Solid #790708) */
 .bubble-featured {
   background-color: var(--primary);
   color: var(--white);
@@ -1516,7 +1493,7 @@ button, input, select {
 }
 
 /* ------------------------------
-   SECTION 9: FOOTER (STRICT #790708 + WHITE)
+   SECTION 9: FOOTER
    ------------------------------ */
 .site-footer {
   background-color: var(--primary);
@@ -1788,9 +1765,7 @@ button, input, select {
   to { transform: translateX(0); opacity: 1; }
 }
 
-/* ------------------------------
-   Responsive Breakpoints
-   ------------------------------ */
+/* Responsive Breakpoints */
 @media (max-width: 1024px) {
   .hero-container {
     grid-template-columns: 1fr;
